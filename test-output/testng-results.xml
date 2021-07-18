@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="6" total="17" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="133" started-at="2021-07-18T14:03:45 IST" finished-at="2021-07-18T14:03:46 IST">
+    <groups>
+      <group name="Sanity">
+        <method signature="TestCase1.cardTest()[pri:1, instance:testNGExample.TestCase1@59906517]" name="cardTest" class="testNGExample.TestCase1"/>
+        <method signature="TestCase1.loanTest()[pri:0, instance:testNGExample.TestCase1@59906517]" name="loanTest" class="testNGExample.TestCase1"/>
+      </group> <!-- Sanity -->
+      <group name="sanity2">
+        <method signature="TestCase3.groupTest4()[pri:0, instance:testNGExample.TestCase3@42d8062c]" name="groupTest4" class="testNGExample.TestCase3"/>
+      </group> <!-- sanity2 -->
+      <group name="sanity">
+        <method signature="TestCase3.groupTest1()[pri:0, instance:testNGExample.TestCase3@42d8062c]" name="groupTest1" class="testNGExample.TestCase3"/>
+        <method signature="TestCase3.groupTest2()[pri:0, instance:testNGExample.TestCase3@42d8062c]" name="groupTest2" class="testNGExample.TestCase3"/>
+        <method signature="TestCase3.groupTest3()[pri:0, instance:testNGExample.TestCase3@42d8062c]" name="groupTest3" class="testNGExample.TestCase3"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Default test" duration-ms="133" started-at="2021-07-18T14:03:45 IST" finished-at="2021-07-18T14:03:46 IST">
+      <class name="test.LoginTest">
+        <test-method status="FAIL" signature="testCase1(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@45820e51]" name="testCase1" duration-ms="0" started-at="2021-07-18T14:03:45 IST" finished-at="2021-07-18T14:03:45 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'username' is required by @Test on method testCase1 but has not been marked @Optional or defined
+in C:\Users\Allaahuakbar\AppData\Local\Temp\testng-eclipse--1519176342\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'username' is required by @Test on method testCase1 but has not been marked @Optional or defined
+in C:\Users\Allaahuakbar\AppData\Local\Temp\testng-eclipse--1519176342\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+      </class> <!-- test.LoginTest -->
+      <class name="testNGExample.TestCase3">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNGExample.TestCase3@42d8062c]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-07-18T14:03:45 IST" finished-at="2021-07-18T14:03:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="groupTest1()[pri:0, instance:testNGExample.TestCase3@42d8062c]" name="groupTest1" duration-ms="4" started-at="2021-07-18T14:03:46 IST" finished-at="2021-07-18T14:03:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- groupTest1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNGExample.TestCase3@42d8062c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-07-18T14:03:46 IST" finished-at="2021-07-18T14:03:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNGExample.TestCase3@42d8062c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-07-18T14:03:46 IST" finished-at="2021-07-18T14:03:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="groupTest2()[pri:0, instance:testNGExample.TestCase3@42d8062c]" name="groupTest2" duration-ms="1" started-at="2021-07-18T14:03:46 IST" finished-at="2021-07-18T14:03:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- groupTest2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNGExample.TestCase3@42d8062c]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-07-18T14:03:46 IST" finished-at="2021-07-18T14:03:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="groupTest3()[pri:0, instance:testNGExample.TestCase3@42d8062c]" name="groupTest3" duration-ms="1" started-at="2021-07-18T14:03:46 IST" finished-at="2021-07-18T14:03:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- groupTest3 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNGExample.TestCase3@42d8062c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-07-18T14:03:46 IST" finished-at="2021-07-18T14:03:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNGExample.TestCase3@42d8062c]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-07-18T14:03:46 IST" finished-at="2021-07-18T14:03:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNGExample.TestCase3@42d8062c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-07-18T14:03:46 IST" finished-at="2021-07-18T14:03:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="groupTest4()[pri:0, instance:testNGExample.TestCase3@42d8062c]" name="groupTest4" duration-ms="1" started-at="2021-07-18T14:03:46 IST" finished-at="2021-07-18T14:03:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- groupTest4 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNGExample.TestCase3@42d8062c]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-07-18T14:03:46 IST" finished-at="2021-07-18T14:03:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="groupTest5()[pri:0, instance:testNGExample.TestCase3@42d8062c]" name="groupTest5" duration-ms="2" started-at="2021-07-18T14:03:46 IST" finished-at="2021-07-18T14:03:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- groupTest5 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNGExample.TestCase3@42d8062c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-07-18T14:03:46 IST" finished-at="2021-07-18T14:03:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNGExample.TestCase3@42d8062c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-07-18T14:03:46 IST" finished-at="2021-07-18T14:03:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testNGExample.TestCase3 -->
+      <class name="testNGExample.BaseClass">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testNGExample.BaseClass@9a7504c]" name="beforeTest" is-config="true" duration-ms="11" started-at="2021-07-18T14:03:45 IST" finished-at="2021-07-18T14:03:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testNGExample.BaseClass@9a7504c]" name="afterTest" is-config="true" duration-ms="1" started-at="2021-07-18T14:03:46 IST" finished-at="2021-07-18T14:03:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testNGExample.BaseClass -->
+      <class name="testNGExample.TestCase2">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNGExample.TestCase2@cb51256]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-07-18T14:03:46 IST" finished-at="2021-07-18T14:03:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="excludeTest1()[pri:0, instance:testNGExample.TestCase2@cb51256]" name="excludeTest1" duration-ms="1" started-at="2021-07-18T14:03:46 IST" finished-at="2021-07-18T14:03:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excludeTest1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNGExample.TestCase2@cb51256]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-07-18T14:03:46 IST" finished-at="2021-07-18T14:03:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNGExample.TestCase2@cb51256]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-07-18T14:03:46 IST" finished-at="2021-07-18T14:03:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="excludeTest2()[pri:0, instance:testNGExample.TestCase2@cb51256]" name="excludeTest2" duration-ms="1" started-at="2021-07-18T14:03:46 IST" finished-at="2021-07-18T14:03:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excludeTest2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNGExample.TestCase2@cb51256]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-07-18T14:03:46 IST" finished-at="2021-07-18T14:03:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNGExample.TestCase2@cb51256]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-07-18T14:03:46 IST" finished-at="2021-07-18T14:03:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="insuranceTest()[pri:0, instance:testNGExample.TestCase2@cb51256]" name="insuranceTest" duration-ms="1" started-at="2021-07-18T14:03:46 IST" description="This is description" finished-at="2021-07-18T14:03:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insuranceTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNGExample.TestCase2@cb51256]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-07-18T14:03:46 IST" finished-at="2021-07-18T14:03:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testNGExample.TestCase2 -->
+      <class name="testNGExample.TestCase1">
+        <test-method status="PASS" signature="loanTest()[pri:0, instance:testNGExample.TestCase1@59906517]" name="loanTest" duration-ms="1" started-at="2021-07-18T14:03:46 IST" finished-at="2021-07-18T14:03:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNGExample.TestCase1@59906517]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-07-18T14:03:46 IST" finished-at="2021-07-18T14:03:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNGExample.TestCase1@59906517]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-07-18T14:03:46 IST" finished-at="2021-07-18T14:03:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNGExample.TestCase1@59906517]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-07-18T14:03:46 IST" finished-at="2021-07-18T14:03:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="cardTest()[pri:1, instance:testNGExample.TestCase1@59906517]" name="cardTest" duration-ms="1" started-at="2021-07-18T14:03:46 IST" finished-at="2021-07-18T14:03:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cardTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNGExample.TestCase1@59906517]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-07-18T14:03:46 IST" finished-at="2021-07-18T14:03:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testNGExample.TestCase1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
